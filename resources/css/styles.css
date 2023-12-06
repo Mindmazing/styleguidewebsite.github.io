@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;600&family=Roboto:wght@300;400;500&display=swap');
+/* General Settings */
+a {
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+}
+
+body {
+    padding: 0px;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+p,a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    background-color: #44444455;
+    border-style: none;
+}
+section {
+    padding: 60px 0px;
+}
+
+/* Header Settings */
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: #EDEDED;
+    box-shadow: 0px 0px 30px rgba(163, 163, 163, 0.548);
+    padding: 10px 20px;
+}
+
+.navigation-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation-menu li {
+    list-style: none;
+}
+
+/* colors setting */
+.colors-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.circle-container{
+    text-align: center;
+}
+
+.circle-container hr:first-of-type {
+    margin-top: 30px;
+}
+
+
+.circle-container p {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.pprimary:hover {
+    background-color: #EDEDED;
+}
+.psecondary:hover {
+    background-color: #444444;
+    color: #EDEDED;
+}
+.ptext:hover {
+    background-color: #171717;
+    color: #EDEDED;
+}
+.paccent:hover {
+    background-color: #DA0037;
+    color: #EDEDED;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; 
+    box-shadow: 0px 15px 30px rgba(163, 163, 163, 0.548);
+}
+
+
+.primary {
+    background-color: #EDEDED;
+}
+
+.secondary {
+    background-color: #444444;
+}
+
+.text {
+    background-color: #171717;
+}
+
+.accent {
+    background-color: #DA0037;
+}
+
+
+/* Font Styles */
+.fonts-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fonts-container div {
+    width: 30%;
+    text-align: center;
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lato-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.justify {
+    text-align: justify;
+    line-height: 1.5;
+}
